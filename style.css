@@ -1,0 +1,23 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+canvas{
+    margin: 10px auto;
+    display: block;
+    background-color: #333;
+}
